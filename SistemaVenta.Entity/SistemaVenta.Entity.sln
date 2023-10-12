@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.DAL", "..\Sist
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.IOC", "..\SistemaVenta.IOC\SistemaVenta.IOC.csproj", "{DBE3496A-C306-4BA0-A0C0-59E8183880BA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaVenta.AplicacionWeb", "..\SistemaVenta.AplicacionWeb\SistemaVenta.AplicacionWeb.csproj", "{B0DE4E66-F4A0-4A90-91F7-04042DDE4955}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DBE3496A-C306-4BA0-A0C0-59E8183880BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBE3496A-C306-4BA0-A0C0-59E8183880BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBE3496A-C306-4BA0-A0C0-59E8183880BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0DE4E66-F4A0-4A90-91F7-04042DDE4955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DE4E66-F4A0-4A90-91F7-04042DDE4955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DE4E66-F4A0-4A90-91F7-04042DDE4955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DE4E66-F4A0-4A90-91F7-04042DDE4955}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

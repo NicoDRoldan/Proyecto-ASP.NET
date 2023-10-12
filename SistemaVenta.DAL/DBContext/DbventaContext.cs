@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using SistemaVenta.Entity;
 
-namespace SistemaVenta.Entity;
+namespace SistemaVenta.DAL.DBContext;
 
 public partial class DbventaContext : DbContext
 {
@@ -40,8 +41,10 @@ public partial class DbventaContext : DbContext
     public virtual DbSet<Venta> Venta { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=(local); DataBase=DBVENTA;Integrated Security=true;Encrypt=False");
+    {
+        //#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
+        //=> optionsBuilder.UseSqlServer("Server=(local); DataBase=DBVENTA;Integrated Security=true;Encrypt=False");
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
