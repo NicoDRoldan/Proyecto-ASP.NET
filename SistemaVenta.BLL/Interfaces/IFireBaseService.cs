@@ -9,6 +9,6 @@ namespace SistemaVenta.BLL.Interfaces
     public interface IFireBaseService
     {
         Task<string> SubirStorage(Stream streamArchivo, string carpetaDestino, string nombreArchivo);
-        Task<bool> Eliminartorage(string carpetaDestino, string nombreArchivo);
+        Task<bool> EliminarStorage(string carpetaDestino, string nombreArchivo);
     }
 }

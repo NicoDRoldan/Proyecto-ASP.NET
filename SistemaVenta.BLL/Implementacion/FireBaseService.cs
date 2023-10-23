@@ -55,7 +55,7 @@ namespace SistemaVenta.BLL.Implementacion
             return urlImagen;
         }
 
-        public async Task<bool> Eliminartorage(string carpetaDestino, string nombreArchivo)
+        public async Task<bool> EliminarStorage(string carpetaDestino, string nombreArchivo)
         {
             try
             {
