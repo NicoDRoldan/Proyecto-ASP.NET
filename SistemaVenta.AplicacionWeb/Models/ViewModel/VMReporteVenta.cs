@@ -14,7 +14,7 @@
 
         public string? SubtotalVenta { get; set;}
 
-        public string? ImuestoTotalVenta { get; set;}
+        public string? ImpuestoTotalVenta { get; set;}
 
         public string? TotalVenta { get; set;}
 

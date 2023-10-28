@@ -18,7 +18,7 @@ namespace SistemaVenta.AplicacionWeb.Models.ViewModel
 
         public string? UrlFoto { get; set; }
 
-        public bool? EsActivo { get; set; }
+        public int? EsActivo { get; set; }
 
     }
 }

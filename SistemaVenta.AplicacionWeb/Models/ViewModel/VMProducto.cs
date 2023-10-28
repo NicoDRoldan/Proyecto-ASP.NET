@@ -22,6 +22,6 @@ namespace SistemaVenta.AplicacionWeb.Models.ViewModel
 
         public decimal? Precio { get; set; }
 
-        public bool? EsActivo { get; set; }
+        public int? EsActivo { get; set; }
     }
 }
