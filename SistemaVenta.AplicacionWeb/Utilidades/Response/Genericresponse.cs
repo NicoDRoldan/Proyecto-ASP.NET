@@ -1,6 +1,6 @@
 ﻿namespace SistemaVenta.AplicacionWeb.Utilidades.Response
 {
-    public class Genericresponse<TObject>
+    public class GenericResponse<TObject>
     {
         public bool Estado {  get; set; }
         public string? Mensaje { get; set; }
